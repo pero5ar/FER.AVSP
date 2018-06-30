@@ -7,7 +7,7 @@ namespace Lab5
     class Program
     {
         const int ITEM_ITEM = 0;
-        const int USER_USER = 0;
+        const int USER_USER = 1;
         static int N, M;
         static List<List<int?>> userItemMatrix = new List<List<int?>>();
         static List<List<int?>> userItemMatrixTransposed = new List<List<int?>>();
